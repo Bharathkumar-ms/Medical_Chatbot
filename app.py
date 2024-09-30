@@ -18,6 +18,9 @@ st.set_page_config(page_title="Medical Chatbot", layout="centered")
 st.markdown(
     """
     <h1 style="color: #008000; text-align: center;">Medical Chatbot</h1>
+    <div style="text-align: center;">
+        <img src="path_to_your_logo.png" alt="Chatbot Logo" width="100" height="100">
+    </div>
     """, unsafe_allow_html=True
 )
 
