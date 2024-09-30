@@ -19,7 +19,7 @@ st.markdown(
     """
     <h1 style="color: #008000; text-align: center;">Medical Chatbot</h1>
     <div style="text-align: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Chatbot_img.png" alt="Chatbot Logo" width="30" height="30">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Chatbot_img.png" alt="Chatbot Logo" width="80" height="80">
     </div>
     """, unsafe_allow_html=True
 )
