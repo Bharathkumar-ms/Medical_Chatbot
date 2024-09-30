@@ -19,10 +19,11 @@ st.markdown(
     """
     <h1 style="color: #008000; text-align: center;">Medical Chatbot</h1>
     <div style="text-align: center;">
-        <img src="path_to_your_logo.png" alt="Chatbot Logo" width="100" height="100">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chatbot_icon.svg/1200px-Chatbot_icon.svg.png" alt="Chatbot Logo" width="100" height="100">
     </div>
     """, unsafe_allow_html=True
 )
+
 
 @st.cache_resource
 def load_or_create_faiss():
