@@ -98,7 +98,7 @@ st.markdown(
     }
     </style>
     <div class="footer">
-        Created by Bharathkumar M S
+        Developed by Bharathkumar M S
         <a href="https://www.linkedin.com/in/bharathkumar-m-s/" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn" width="30" height="30">
         </a>
