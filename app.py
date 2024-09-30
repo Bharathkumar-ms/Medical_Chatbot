@@ -27,16 +27,6 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.markdown(
-    """
-    <style>
-    .stApp .st-bj { 
-        display: none; 
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 @st.cache_resource
