@@ -15,20 +15,13 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 
 st.set_page_config(page_title="Medical Chatbot", layout="centered")
 
-st.markdown(
-    """
-    <h1 style="color: #008000; text-align: center;">Medical Chatbot</h1>
-    <div style="text-align: center;">
-        <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="100" height="100">
-    </div>
-    """, unsafe_allow_html=True
-)
+
 st.markdown(
     """
     <h1 style="color: #008000; text-align: center;">
-        <div style="display: flex; align-items: center; justify-content: center;">
-            <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="50" height="50" style="margin-right: 10px;">
+        <div style="display: flex; align-items: center; justify-content: center;">   
             Medical Chatbot
+            <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="50" height="50" style="margin-right: 10px;">
         </div>
     </h1>
     """, unsafe_allow_html=True
