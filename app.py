@@ -27,7 +27,7 @@ st.markdown(
     """
     <h1 style="color: #008000; text-align: center;">Medical Chatbot</h1>
     <div style="text-align: center;">
-        <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="30" height="30">
+        <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="100" height="100">
     </div>
     """, unsafe_allow_html=True
 )
