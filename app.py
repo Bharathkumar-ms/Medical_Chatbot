@@ -21,14 +21,12 @@ st.markdown(
     <h1 style="color: #008000; text-align: center;">
         <div style="display: flex; align-items: center; justify-content: center;">   
             Medical Chatbot
-            <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="50" height="50" style="margin-right: 10px;">
+            <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="80" height="80" style="margin-right: 10px;">
         </div>
     </h1>
     """, unsafe_allow_html=True
 )
 
-
-#<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Chatbot_img.png" alt="Chatbot Logo" width="80" height="80">
 
 @st.cache_resource
 def load_or_create_faiss():
