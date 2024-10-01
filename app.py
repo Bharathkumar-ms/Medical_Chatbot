@@ -27,6 +27,18 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
+import streamlit as st
+
+# Custom CSS to hide the Streamlit menu (including GitHub icon)
+hide_github_icon = """
+    <style>
+    .css-1lsmgbg.e1fqkh3o3 {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
+
+
 
 @st.cache_resource
 def load_or_create_faiss():
