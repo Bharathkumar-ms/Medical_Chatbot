@@ -66,7 +66,7 @@ Helpful answer:
 parser = StrOutputParser()
 
 st.markdown(
-    "<h4 style='color:red;'>Ask a medical question related to the content of the PDF:</h4>", 
+    "<h4 style='color:red;'>Ask any medical related question:</h4>", 
     unsafe_allow_html=True
 )
 
