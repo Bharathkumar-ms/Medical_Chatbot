@@ -32,7 +32,7 @@ st.markdown(
 def load_or_create_faiss():
     if os.path.exists("faiss_index"):
         embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-        db = FAISS.load_local("faiss_index", embeddings)
+        db = FAISS.load_local("faiss_index", embeddings , allow_dangerous_deserialization=True)
         return db
     else:
         loader = PyPDFLoader('Medical_book.pdf')
