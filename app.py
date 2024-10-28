@@ -84,7 +84,7 @@ if user_question:
         })
 
         st.write("### Answer:")
-        st.markdown(f"<p style='color:blue;'>{response}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='color:black;'>{response}</p>", unsafe_allow_html=True)
 
 st.markdown(
     """
